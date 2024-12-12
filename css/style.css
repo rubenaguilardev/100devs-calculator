@@ -2,24 +2,29 @@ main {
     margin: 0;
     padding: 0;
     width: 410px;
-    height: 522px;
-    background-color: black;
-    border-radius: 30px;
+    height: 510px;
+    background-color: rgb(70, 69, 69);
+    border-radius: 10px;
     margin: 20px auto;
-    padding-top: 75px;
+    padding-top: 55px;
 }
 
 .screen {
     width: 334px;
     height: 82px;
-    background-color: white;
-    margin: 0 auto 30px auto;
+    background-color: rgb(163, 163, 163);
+    margin: 0 auto 25px auto;
     border-radius: 3px;
 }
 
 #result {
+    height: 35px;
+    width: 334px;
     font-size: 20px;
-    padding: 10px 0 40px 5px
+    background-color: rgb(180, 180, 180);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 20px;
 }
 
 #text {
@@ -36,10 +41,12 @@ main {
 button {
     width: 62px;
     height: 62px;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 30px;
     font-weight: bold;
     margin: 0 10px 10px 0;
+    background-color: gray;
+    border-color: gray;
 }
 
 button:hover {
@@ -62,6 +69,6 @@ button:hover {
 
 #equals {
     width: 134px;
-    background-color: olivedrab;
-    border-color: olivedrab;
+    background-color: rgb(136, 182, 45);
+    border-color: rgb(136, 182, 45);
 }
