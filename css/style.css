@@ -17,6 +17,17 @@ main {
     border-radius: 3px;
 }
 
+#result {
+    font-size: 20px;
+    padding: 10px 0 22px 5px
+}
+
+#text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -29,6 +40,10 @@ button {
     font-size: 30px;
     font-weight: bold;
     margin: 0 10px 10px 0;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 #seven,
